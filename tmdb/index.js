@@ -5,7 +5,7 @@ const LOADING_MESSAGE =  "<p>Loading...</p>"
 
 const CURRENT_YEAR = new Date().getFullYear()
 
-//Search for movies and return results in descending order of popularity. The query will return, at maximum, 20 results per page.
+//Search for movies and return results in descending order of popularity. The query will return, at maximum, 20 results per page. The query searches for movies that are available to watch in English.
 const SEARCH_QUERY = "https://api.themoviedb.org/3/discover/movie?api_key=af79da4a359de5e09175181acbf682a7&language=en-US&sort_by=popularity.desc"
 
 //Main source for posters
