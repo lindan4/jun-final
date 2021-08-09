@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>TMDB</title>
+    <link href="index.css" type="text/css" rel="stylesheet" />
+    <script src="index.js"></script>
+  </head>
+  <body>
+      <div id="root">
+          <p>Welcome to the movie database where you can search for movies based on the year it was released.</p>
+          <div>
+              <div>
+                  <label id="year-label">Year: </label>
+                  <input id="year-input" type='number' name="year" min="1" step="1" placeholder="Enter year (YYYY)"/>
+                  <button type="button" name="year-search" value="search" onclick="searchForMovieBasedOnYear();">Search</button>
+              </div>
+              <div id='search-results'>
+              </div>
+          </div>
+
+      </div>
+  </body>
+
+
+</html>
+
+
+

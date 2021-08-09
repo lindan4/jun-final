@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+
+.result-item {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20pt;
+}
+
+.result-item-name-and-date {
+    display: flex;
+    flex-direction: column;
+}
+
+#search-results {
+    margin-top: 20pt;
+}
+
+.movie-info-text {
+    margin-left: 20pt;
+}
